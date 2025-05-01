@@ -9,9 +9,12 @@ import Footer from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Full Stack Developer Portfolio",
+  title: "Vedansh's Portfolio",
   description: "Professional portfolio showcasing my projects and skills as a Full Stack Developer",
-    generator: 'v0.dev'
+  generator: 'v0.dev',
+  icons: {
+    icon: "/favicon.png",
+  },
 }
 
 export default function RootLayout({
