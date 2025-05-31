@@ -12,7 +12,7 @@ const projectsData = [
   {
     id: 1,
     title: "GitHubFolio.in",
-    description: "A GitHub portfolio website with AI-based reviews of your GitHub profile. 100s of daily active users.",
+    description: "A GitHub portfolio website with AI-based reviews of your GitHub profile. 1300+ visitors in 2 months.",
     image: "/githubfolio_homepage.png",
     tags: ["TypeScript", "Next.js", "Postgress", "Prisma", "Next-auth", "Gemini", "AWS EC2"],
     demoUrl: "https://githubfolio.in",
@@ -38,6 +38,14 @@ const projectsData = [
   },
   {
     id: 4,
+    title: "Often Events",
+    description: "A Next.js website where users can create event invites with custom backgrounds (images/videos) and key details like event name, ticket price, dates, and capacity.",
+    image: "/Often.png",
+    tags: ["JavaScript", "Next.js", "Tailwind CSS", "Zustand", "Remotion"],
+    demoUrl: "https://oftendev.vercel.app/",
+    githubUrl: "https://github.com/vedansh2001/Often",
+  },{
+    id: 5,
     title: "Unboxing Game",
     description: "A gaming website built with React and Node.js, where users spend coins to run a slider and win prizes based on their ticket value and probability.",
     image: "/Vedansh_spinning.png",
@@ -46,7 +54,7 @@ const projectsData = [
     githubUrl: "https://github.com/vedansh2001/unboxing",
   },
   {
-    id: 5,
+    id: 6,
     title: "Soshin Dashboard",
     description: "A clean dashboard built using react.js",
     image: "/ShoshinTech.png",
@@ -55,7 +63,7 @@ const projectsData = [
     githubUrl: "http://github.com/vedansh2001/Shoshin-Tech",
   },
   {
-    id: 6,
+    id: 7,
     title: "URL Shortner",
     description: "A MERN stack-based URL shortener that converts long URLs into short, shareable links for easy sharing across platforms.",
     image: "/URL_Shortner1.png",
@@ -64,7 +72,7 @@ const projectsData = [
     githubUrl: "https://github.com/vedansh2001/URL_Shortner",
   },
   {
-    id: 7,
+    id: 8,
     title: "Guestara",
     description: "Menu Management Backend: A Node.js and Express-based backend API for creating, managing, and retrieving menu categories, subcategories, and items with support for tax calculation, search, and editing.",
     image: "/Guestara.png",
